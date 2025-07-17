@@ -1,3 +1,5 @@
 *.zip filter=lfs diff=lfs merge=lfs -text
+*.trt filter=lfs diff=lfs merge=lfs -text
+*.onnx filter=lfs diff=lfs merge=lfs -text
 gpt2_model.onnx filter=lfs diff=lfs merge=lfs -text
 gpt2_model.trt filter=lfs diff=lfs merge=lfs -text
